@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "575922a7-5183-44fa-8327-15c7dfb60d04",
+		"name": "Email",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14315166",
+		"_collection_link": "https://gold-meteor-798450.postman.co/workspace/Email~7b513bda-67f3-4447-9861-805cc994b9c3/collection/14315166-575922a7-5183-44fa-8327-15c7dfb60d04?action=share&source=collection_link&creator=14315166"
+	},
+	"item": [
+		{
+			"name": "Envio Gmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ownerRef\":\"Guilherme\",\r\n\"emailFrom\":\"testeultracar@gmail.com\",\r\n\"emailTo\":\"testeultracar@gmail.com\",\r\n\"subject\":\"teste de envio de email\",\r\n\"text\":\"segundo teste de envio de email\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/sending"
+			},
+			"response": []
+		},
+		{
+			"name": "Envio Outlook",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ownerRef\":\"Guilherme\",\r\n\"emailFrom\":\"testeultracar@gmail.com\",\r\n\"emailTo\":\"testeultracar@gmail.com\",\r\n\"subject\":\"teste de envio de email\",\r\n\"text\":\"segundo teste de envio de email\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/sending"
+			},
+			"response": []
+		},
+		{
+			"name": "Envio  Ultracar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ownerRef\":\"Guilherme\",\r\n\"emailFrom\":\"testeultracar@gmail.com\",\r\n\"emailTo\":\"testeultracar@gmail.com\",\r\n\"subject\":\"teste de envio de email\",\r\n\"text\":\"segundo teste de envio de email\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/sending"
+			},
+			"response": []
+		},
+		{
+			"name": "Get email Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/sending-email"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All email",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/sending-email"
+			},
+			"response": []
+		}
+	]
+}
